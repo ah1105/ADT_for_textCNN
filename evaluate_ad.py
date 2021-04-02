@@ -30,7 +30,7 @@ def get_args():
     parser.add_argument('--batch-size', default=100, type=int)
     parser.add_argument('--data-dir', default='../adv-data', type=str)
     parser.add_argument('--fname', default='./adv_model_base',type=str)
-    parser.add_argument('--attack', default='none', type=str, choices=['pgd', 'fgsm', 'none'])
+    parser.add_argument('--attack', default='none', type=str, choices=['pgd', 'none'])
     parser.add_argument('--epsilon', default=0.01, type=float)
     parser.add_argument('--attack-iters', default=50, type=int)
     parser.add_argument('--alpha', default=0.01, type=float)
