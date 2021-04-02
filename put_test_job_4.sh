@@ -1,0 +1,1 @@
+dlp submit -a yuanzhao -d "test-4" -n "test-4" -e test_job.sh -i reg.deeplearning.cn/ayers/nvidia-cuda:9.1-cudnn7-devel-centos7-py2 --useGpu -g 1 -l en-ner-test-last-pgd.log -t TfJob -k TeslaP40

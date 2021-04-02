@@ -1,0 +1,13 @@
+attack one
+base accuracy: 0.9085 ,precision: 0.9086 ,recall: 0.9085,f1: 0.9085 
+fgm accuracy: 0.9145 ,precision: 0.9145 ,recall: 0.9145,f1: 0.9144 
+fgsm accuracy: 0.9127 ,precision: 0.9129 ,recall: 0.9127,f1: 0.9127 
+pgd accuracy: 0.9129 ,precision: 0.9129 ,recall: 0.9129,f1: 0.9128 
+free accuracy: 0.9054 ,precision: 0.9057 ,recall: 0.9054,f1: 0.9054 
+
+attack pgd
+base accuracy: 0.5119 ,precision: 0.5011 ,recall: 0.5119, f1: 0.4753 
+fgm accuracy: 0.7332 ,precision: 0.7718 ,recall: 0.7332, f1: 0.7151 
+fgsm accuracy: 0.8421 ,precision: 0.8574 ,recall: 0.8421, f1: 0.8434 
+pgd accuracy: 0.5063 ,precision: 0.5016 ,recall: 0.5063, f1: 0.4668 
+free accuracy: 0.8629 ,precision: 0.8668 ,recall: 0.8629, f1: 0.8636 
